@@ -11,8 +11,8 @@ if (-not (Test-Path -LiteralPath (Join-Path $source "SKILL.md"))) { throw "SKILL
 
 function Install-Skill([string]$Root) {
   $destinationPath = Join-Path $Root "r-parcours-mtes"
-  New-Item -ItemType Directory -Force -Path $Root | Out-Null
-  Copy-Item -Path (Join-Path $source "*") -Destination $destinationPath -Recurse -Force
+  New-Item -ItemType Directory -Force -Path $destinationPath | Out-Null
+  Get-ChildItem -LiteralPath $source -Force | Copy-Item -Destination $destinationPath -Recurse -Force
   Write-Output "Skill installé dans $destinationPath"
 }
 
