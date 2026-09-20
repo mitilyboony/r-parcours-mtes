@@ -1,0 +1,6 @@
+if (!requireNamespace("dplyr", quietly = TRUE)) quit(status = 0)
+env <- new.env(); source(file.path("skills", "r-parcours-mtes", "examples", "01-preparation.R"), env)
+stopifnot(is.character(env$entree$code), all(c("01001", "2A004") %in% env$entree$code), nrow(env$result_preparation) == 4L)
+stopifnot(is.na(env$result_preparation$valeur[env$result_preparation$code == "2A004" & env$result_preparation$annee == 2021]))
+stopifnot(env$result_series$variation[env$result_series$code == "01001" & env$result_series$annee == 2022] == 4)
+message("test-preparation: OK")

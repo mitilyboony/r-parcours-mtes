@@ -1,0 +1,6 @@
+interface:
+  display_name: "Parcours R MTES"
+  short_description: "Coder et analyser des données en R"
+  default_prompt: "Utilise $r-parcours-mtes pour préparer, analyser ou visualiser ces données en R avec des contrôles reproductibles."
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,18 @@
+[
+  {
+    "repository": "parcours-r",
+    "role": "Complément appelé depuis les six modules",
+    "url": "https://github.com/MTES-MCT/parcours-r.git",
+    "commit": "b53b22f75b8a35a5229be66ecdbc5154e3c0d9b9",
+    "commit_date": "2026-07-30T13:55:38+02:00",
+    "clean": true
+  },
+  {
+    "repository": "savoirfR",
+    "role": "Complément appelé depuis les six modules",
+    "url": "https://github.com/MTES-MCT/savoirfR.git",
+    "commit": "13377ca45486186266ab7f5fa9a3fb1a5223d826",
+    "commit_date": "2026-09-09T16:26:58+02:00",
+    "clean": true
+  }
+]

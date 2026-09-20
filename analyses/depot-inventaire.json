@@ -1,0 +1,74 @@
+[
+  {
+    "repository": "parcours_r_module_analyse_multi_dimensionnelles",
+    "url": "https://github.com/MTES-MCT/parcours_r_module_analyse_multi_dimensionnelles.git",
+    "branch": "master",
+    "commit": "faa194c7f063d16f6cb069d13357905a4ede875b",
+    "commit_date": "2026-06-03T19:47:14+02:00",
+    "tracked_files": 34,
+    "r_files": 1,
+    "rmd_files": 7,
+    "qmd_files": 0,
+    "clean": true
+  },
+  {
+    "repository": "parcours_r_module_analyse_spatiale",
+    "url": "https://github.com/MTES-MCT/parcours_r_module_analyse_spatiale.git",
+    "branch": "master",
+    "commit": "e3fddaabbbde98c065e67652fd51303826786018",
+    "commit_date": "2026-06-03T18:10:27+02:00",
+    "tracked_files": 52,
+    "r_files": 3,
+    "rmd_files": 17,
+    "qmd_files": 0,
+    "clean": true
+  },
+  {
+    "repository": "parcours_r_module_datavisualisation",
+    "url": "https://github.com/MTES-MCT/parcours_r_module_datavisualisation.git",
+    "branch": "master",
+    "commit": "809263de69693c891aa5c22fb3f58a96f7163afe",
+    "commit_date": "2026-06-03T15:53:02+02:00",
+    "tracked_files": 99,
+    "r_files": 6,
+    "rmd_files": 18,
+    "qmd_files": 0,
+    "clean": true
+  },
+  {
+    "repository": "parcours_r_module_statistiques_descriptives",
+    "url": "https://github.com/MTES-MCT/parcours_r_module_statistiques_descriptives.git",
+    "branch": "master",
+    "commit": "735544c0d6856efcfc1aef0c4ea5e149b2ac36b7",
+    "commit_date": "2026-06-03T17:35:51+02:00",
+    "tracked_files": 45,
+    "r_files": 1,
+    "rmd_files": 10,
+    "qmd_files": 0,
+    "clean": true
+  },
+  {
+    "repository": "parcours_r_socle_introduction",
+    "url": "https://github.com/MTES-MCT/parcours_r_socle_introduction.git",
+    "branch": "master",
+    "commit": "42b7cc87636af83b0a48eb1867b98fbf24977bab",
+    "commit_date": "2026-06-03T16:20:56+02:00",
+    "tracked_files": 66,
+    "r_files": 2,
+    "rmd_files": 13,
+    "qmd_files": 0,
+    "clean": true
+  },
+  {
+    "repository": "parcours_r_socle_preparation_des_donnees",
+    "url": "https://github.com/MTES-MCT/parcours_r_socle_preparation_des_donnees.git",
+    "branch": "master",
+    "commit": "5c9c8513d4451409d3ccd8783cf97aeb940cb7c0",
+    "commit_date": "2026-06-03T15:51:20+02:00",
+    "tracked_files": 49,
+    "r_files": 2,
+    "rmd_files": 10,
+    "qmd_files": 0,
+    "clean": true
+  }
+]

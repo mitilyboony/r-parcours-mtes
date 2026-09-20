@@ -1,0 +1,5 @@
+if (!requireNamespace("dplyr", quietly = TRUE)) stop("Cet exemple nécessite dplyr.")
+library(dplyr)
+entree <- data.frame(code = c("01001", "2A004", "01001", "2A004"), annee = c(2021, 2021, 2022, 2022), valeur = c(10, NA, 14, 18), groupe = c("A", "B", "A", "B"))
+result_preparation <- entree |> group_by(code, annee, groupe) |> summarise(valeur = if (all(is.na(valeur))) NA_real_ else sum(valeur, na.rm = TRUE), .groups = "drop")
+result_series <- result_preparation |> arrange(code, annee) |> group_by(code) |> mutate(precedente = lag(valeur), variation = valeur - precedente) |> ungroup()
